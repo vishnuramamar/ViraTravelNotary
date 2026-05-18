@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viratravelnotary.netlify.app/sitemap.xml
