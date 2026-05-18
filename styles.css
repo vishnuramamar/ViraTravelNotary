@@ -149,15 +149,14 @@ header {
     gap: 2rem;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo-img {
-    height: 60px;
-    width: auto;
-    object-fit: contain;
+.logo h1 {
+    font-size: 2.25rem;
+    margin: 0;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
 }
 
 .nav-menu {
@@ -1151,8 +1150,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .logo-img {
-        height: 50px;
+    .logo h1 {
+        font-size: 1.65rem;
     }
     
     .phone-header a {
